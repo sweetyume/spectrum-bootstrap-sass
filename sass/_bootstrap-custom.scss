@@ -1,0 +1,41 @@
+$font-family-montserrat: 'Montserrat', 'Helvetica', sans-serif;
+$font-family-lora: 'Lora', 'Helvetica', sans-serif;
+$font-family-pacifico: 'Pacifico', 'Helvetica', sans-serif;
+
+* {
+  text-align: center;
+}
+/*------------------------------------*\
+    NAVBAR
+\*------------------------------------*/
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: $font-family-montserrat;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: $font-family-pacifico;
+}
+/*------------------------------------*\
+    SECTION CLIENTS
+\*------------------------------------*/
+.bg-dark {
+  background: #3e444d !important;
+  color: #f4f5f7 !important;
+}
+
+#clients-carousel ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+/*------------------------------------*\
+    $CONTENU
+\*------------------------------------*/
+/**
+ * CONTENU.............Vous êtes en train de le lire
+ * RESET...............Réinitialisation des styles par défaut
+ * FONT................Les polices de caractère
+ */

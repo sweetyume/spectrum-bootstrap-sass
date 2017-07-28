@@ -1,4 +1,49 @@
 @charset "UTF-8";
+/* line 5, ../sass/_bootstrap-custom.scss */
+* {
+  text-align: center;
+}
+
+/*------------------------------------*\
+    NAVBAR
+\*------------------------------------*/
+/* line 11, ../sass/_bootstrap-custom.scss */
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 18, ../sass/_bootstrap-custom.scss */
+.navbar-inverse .navbar-brand {
+  font-family: "Pacifico", "Helvetica", sans-serif;
+}
+
+/*------------------------------------*\
+    SECTION CLIENTS
+\*------------------------------------*/
+/* line 24, ../sass/_bootstrap-custom.scss */
+.bg-dark {
+  background: #3e444d !important;
+  color: #f4f5f7 !important;
+}
+
+/* line 29, ../sass/_bootstrap-custom.scss */
+#clients-carousel ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+/*------------------------------------*\
+    $CONTENU
+\*------------------------------------*/
+/**
+ * CONTENU.............Vous êtes en train de le lire
+ * RESET...............Réinitialisation des styles par défaut
+ * FONT................Les polices de caractère
+ */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6143,7 +6188,7 @@ tbody.collapse.in {
 }
 /* line 535, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
-  color: #9d9d9d;
+  color: #fff;
 }
 /* line 537, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -6156,7 +6201,7 @@ tbody.collapse.in {
 }
 /* line 549, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #fff;
 }
 /* line 552, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -6206,7 +6251,7 @@ tbody.collapse.in {
   }
   /* line 613, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #9d9d9d;
+    color: #fff;
   }
   /* line 615, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -6226,7 +6271,7 @@ tbody.collapse.in {
 }
 /* line 641, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
-  color: #9d9d9d;
+  color: #fff;
 }
 /* line 643, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
@@ -6234,7 +6279,7 @@ tbody.collapse.in {
 }
 /* line 648, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
-  color: #9d9d9d;
+  color: #fff;
 }
 /* line 650, ../../../../../../../.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
